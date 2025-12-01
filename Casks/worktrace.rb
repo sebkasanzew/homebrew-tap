@@ -1,8 +1,8 @@
 cask "worktrace" do
-  version "0.3.13"
-  sha256 "5a24afe531d569242c2c012d561cf12c9d846788f4b50343eb11a10917c060ea"
+  version "0.4.0"
+  sha256 "691bb250f51f071a78f9cfdc0e46d8be4176c8038a823ec2a15a9000b4ebb392"
   
-  url "https://github.com/sebkasanzew/worktrace/releases/download/v#{version}/Worktrace_0.3.13_aarch64.dmg"
+  url "https://github.com/sebkasanzew/worktrace/releases/download/v#{version}/Worktrace_0.4.0_aarch64.dmg"
 
   name "Worktrace"
   desc "Time tracking and JIRA integration tool"
@@ -11,9 +11,9 @@ cask "worktrace" do
   app "Worktrace.app"
 
   zap trash: [
-    "~/Library/Application Support/com.worktrace.desktop",
-    "~/Library/Caches/com.worktrace.desktop",
-    "~/Library/Preferences/com.worktrace.desktop.plist",
-    "~/Library/Saved Application State/com.worktrace.desktop.savedState",
+    "~/Library/Application Support/Worktrace",
+    "~/Library/Caches/Worktrace",
+    "~/Library/Preferences/Worktrace.plist",
+    "~/Library/Saved Application State/Worktrace.savedState",
   ]
 end
