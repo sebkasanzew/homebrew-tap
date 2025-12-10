@@ -1,8 +1,8 @@
 cask "worktrace" do
-  version "0.4.3"
-  sha256 "96fdee32147b4e148c0113aed20d36c66685e6f3313e670e25aa13054bea49f1"
+  version "0.4.4"
+  sha256 "56512b3b10d2f9493cdfcd2a59b39a3e18eacab4e734f1833ac60d6d4ea4c1bf"
   
-  url "https://github.com/sebkasanzew/worktrace/releases/download/v#{version}/Worktrace_0.4.3_aarch64.dmg"
+  url "https://github.com/sebkasanzew/worktrace/releases/download/v#{version}/Worktrace_0.4.4_aarch64.dmg"
 
   name "Worktrace"
   desc "Time tracking and JIRA integration tool"
